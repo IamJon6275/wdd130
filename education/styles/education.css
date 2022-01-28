@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto&display=swap');
+
+body {
+    background-color: #F9A6C7;
+    text-align: center;
+    font-family: "Roboto";
+}
+
+header {
+    color: white;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    padding-bottom: 25px;
+    font-size: 40pt;
+}
+
+h1:hover {
+    color: black;
+}
+
+h4 {
+    font-weight: lighter;
+}
+
+.attribution {
+    font-weight: bold;
+}
+
+img {
+    width: 200px;
+    padding-top: 10px;
+}
+
+ol {
+    font-weight: bold;
+    max-width: 455px;
+    margin: 0 auto;
+}
+
+section {
+    text-align: center;
+}
+
+blockquote {
+    color: white;
+    font-size: xx-large;
+    font-family: "PT_Serif";
+    max-width: 280px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+li {
+    text-align: left;
+    padding: 10px;
+}
+
+footer {
+    max-width: 360px;
+    margin: 0 auto;
+    font-weight: bold;
+}

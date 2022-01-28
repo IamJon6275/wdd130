@@ -1,0 +1,30 @@
+/* html selectors */
+nav a {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+
+/* class selectors */
+.button-box {
+    text-align: center;
+}
+
+
+
+/* id selectors */
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
