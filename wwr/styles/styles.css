@@ -7,13 +7,88 @@ main section {
     text-align: center;
 }
 
+body {
+    background-color: white;
+}
+
+header {
+    background-color: #2686e0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #FFC145;
+    color: #2686E0;
+}
+
+footer {
+    background-color: #2686e0;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer h3 a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #FFC145;
+}
+
+h4 {
+    color: #2686E0;
+}
 
 /* class selectors */
 .button-box {
     text-align: center;
 }
 
+.book, .join {
+    background-color: #DB3A34;
+    color: #FFC145;
+    text-decoration: none;
+}
 
+.book:hover, .join:hover {
+    background-color: #FFC145;
+    color: #DB3A34;
+}
+
+.msg {
+    background-color: #2686e0;
+}
+
+.msg h2 {
+    color: white;
+}
+
+.msg p {
+    color: white;
+}
+
+.home-title {
+    color: #2686E0;
+}
+
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+}
 
 /* id selectors */
 #content {
@@ -27,4 +102,9 @@ main section {
 
 #background {
     height: 725px;
+    background-color: #FFC145;
+}
+
+#hero-img {
+    width: 100%;
 }
