@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Patua+One&display=swap');
+
 /* html selectors */
 nav a {
     text-align: center;
@@ -7,8 +9,20 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 body {
     background-color: white;
+    font-family: 'Lora', 'Patua One', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -18,6 +32,8 @@ header {
 nav a {
     color: white;
     text-decoration: none;
+    text-align: center;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -27,6 +43,8 @@ nav a:hover {
 
 footer {
     background-color: #2686e0;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer h3 {
@@ -46,6 +64,10 @@ footer a:hover {
     color: #FFC145;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 h4 {
     color: #2686E0;
 }
@@ -59,6 +81,10 @@ h4 {
     background-color: #DB3A34;
     color: #FFC145;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -68,6 +94,8 @@ h4 {
 
 .msg {
     background-color: #2686e0;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -76,10 +104,12 @@ h4 {
 
 .msg p {
     color: white;
+    padding-bottom: 15px;
 }
 
 .home-title {
     color: #2686E0;
+    margin-top: 10px;
 }
 
 .logo {
@@ -88,6 +118,20 @@ h4 {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+
+.home-title {
+    font-family: 'Lora', 'Patua One', sans-serif;
+    font-size: 2em;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #DB3A34;
 }
 
 /* id selectors */
@@ -107,4 +151,8 @@ h4 {
 
 #hero-img {
     width: 100%;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
