@@ -228,6 +228,31 @@ h4 {
     align-self: center;
 }
 
+/* rivers css */
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.rivers-img {
+    width: 50%;
+    border: 10px solid #FFC145;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.rivers-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.rivers-obj {
+    padding: 20px;
+}
+
 /* forms css */
 form {
     /* Center the form on the page */
