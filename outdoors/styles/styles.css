@@ -219,7 +219,7 @@ h4 {
   .show {display:block;}
 
 
-/* Environments CSS */
+/* environments CSS */
 .upper-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -230,4 +230,25 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 40px;
+}
+
+/* gear_equipment CSS */
+.gear-equipment-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.gear-equipment-grid div {
+    padding: 10px;
+}
+
+.gear-equipment-grid img {
+    justify-self: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.foreward {
+    text-align: center;
 }
