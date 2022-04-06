@@ -30,16 +30,24 @@
             <section id="hero-msg">
                 <h1 class="home-title">Get Some Tales to Tell</h1>
                 <h4>Be Ready for Anything, We Can Help</h4>
-                <div class='button-box'>
-                    <a class='learn' href="#">Learn More</a>
+                <div class="button-box">
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">Learn More</button>
+                        <div id="myDropdown" class="dropdown-content">
+                        <a href="environments.html">Environments</a>
+                        <a href="gear_equipment.html">Gear and Equipment</a>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
-        <img id="tall-river" src="images/outdoors1.jpg" alt="tall river shot">
         <section class="about">
-            <h2>
+            <div class="tall-river">
+                <img src="images/outdoors1.jpg" alt="tall river shot">
+            </div>
+            <h4>
                 About
-            </h2>
+            </h4>
             <p>
                 Outdoor activities are extremely fun, but 
                 they can be quite dangerous, the things 
@@ -52,11 +60,11 @@
             </p>
         </section>
         <main class="home-grid">
-            <img id="forest" src="images/outdoors2.jpg" alt="sun shining in the forest">
+            <img src="images/outdoors2.jpg" alt="sun shining in the forest">
             <div class="pitch">
-                <h2>
-                    Pitch
-                </h2>
+                <h4>
+                    Why Choose Us?
+                </h4>
                 <p>
                     Now why would this site be better than any 
                     other website about outdoor activities? It is 
@@ -66,8 +74,14 @@
                     experts, this is the layperson’s cornerstone 
                     to becoming an expert outdoorsman.
                 </p>
-                <div class='button-box'>
-                    <a class='learn' href="#">Learn More</a>
+                <div class="button-box">
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">Learn More</button>
+                        <div id="myDropdown2" class="dropdown-content">
+                        <a href="environments.html">Environments</a>
+                        <a href="gear_equipment.html">Gear and Equipment</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
@@ -88,6 +102,28 @@
             </div>
         </footer>
     </div>
+<script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+    document.getElementById("myDropdown2").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+        }
+        }
+    }
+    }
+</script>
 </body>
 
 </html>
